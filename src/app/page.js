@@ -20,7 +20,7 @@ export default function Home() {
           description: 'Explore the portfolio of Santhoshkumar P.',
           images: [
             {
-              url: '/path/to/image.jpg',
+              url: 'icon.ico',
               width: 800,
               height: 600,
               alt: 'Portfolio Image Alt Text',
