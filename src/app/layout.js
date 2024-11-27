@@ -1,3 +1,4 @@
+// layout.js
 import './globals.css';
 import { Inter } from 'next/font/google';
 
@@ -8,21 +9,16 @@ export const metadata = {
   description: 'Explore the portfolio of Santhoshkumar P, showcasing projects, skills, and achievements in web development and design.',
   openGraph: {
     title: 'Santhoshkumar P - Web Developer & Designer',
-    description: 'Explore the portfolio of Santhoshkumar P, showcasing projects, skills, and achievements in web development and design.',
+    description: 'Explore the portfolio of Santhoshkumar P.',
+    url: 'https://santhoshkumar-punniyakotti.netlify.app/',
     images: [
       {
-        url: 'icon.ico', // Update with the correct path
-        alt: 'Portfolio Image Alt Text',
+        url: '/icon.ico', // Update with your image path
+        width: 800,
+        height: 600,
+        alt: 'Portfolio of Santhoshkumar P',
       },
     ],
-    url: 'https://www.yourwebsite.com',
-    type: 'website',
-  },
-  twitter: {
-    card: 'summary_large_image',
-    title: 'Santhoshkumar P - Web Developer & Designer',
-    description: 'Explore the portfolio of Santhoshkumar P.',
-    images: ['icon.ico'], // Update with the correct path
   },
 };
 
